@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Snip Check: Find a Stylist That You Can Trust</title>
+        <link rel="stylesheet" href="style.css" />
+        </head>
+    <body>
+        <header class="site-header">
+           <h1><img src="scissors-icon.png" alt="" class="header-icon" /> Snip Check</h1>
+            <p class="tagline">Check the fit before you commit.</p>
+        </header>
+
+        <main>
+            <section id="directory-view" aria-labelledby="directory-heading">
+                <h2 id="directory-heading" class="visually-hidden">Stylist Directory</h2>
+                <form id="search-form" class="search-bar" role="search">
+                <label for="search-input">Search by name, salon, or city</label>
+                <input
+                type="text"
+                id="search-input"
+                name="search"
+                placeholder="e.g. Marcus, Fade Factory, Corpus Christi"
+                autocomplete="off"
+        />
+      </form>
+      <p id="loading-message" role="status">Loading stylists…</p>
+      <p id="error-message" role="alert" hidden>
+        We couldn't load the stylist directory right now. Please refresh the page to try again.
+    </p>
+    <p id="empty-message" hidden>No stylists match your search. Try a different name, salon, or city.</p>
+    <div id="stylist-grid" class="stylist-grid" hidden></div>
+</section>
+<section id="detail-view" hidden aria-labelledby="detail-heading">
+    <button id="back-button" type="button" class="back-button">&larr; Back to directory</button>
+    <article class="stylist-profile">
+        <img id="detail-photo" src="" alt="" class="stylist-photo" />
+        <div class="stylist-info">
+            <h2 id="detail-heading"></h2>
+            <p id="detail-salon" class="salon-line"></p>
+            <p id="detail-specialty" class="specialty-line"></p>
+        </div>
+    </article>
+        <section aria-labelledby="reviews-heading">
+        <h3 id="reviews-heading">Reviews</h3>
+        <ul id="review-list" class="review-list"></ul>
+    </section>
+
+    <section aria-labelledby="review-form-heading">
+        <h3 id="review-form-heading">Leave a Review</h3>
+        <form id="review-form" class="review-form">
+            <div class="form-row">
+                <label for="reviewer-name">Your name</label>
+                <input type="text" id="reviewer-name" name="reviewer-name" required />
+            </div>
+
+            <div class="form-row">
+                <label for="reviewer-rating">Rating</label>
+                <select id="reviewer-rating" name="reviewer-rating" required>
+                    <option value="">Select a rating</option>
+                    <option value="5">5 — Excellent</option>
+                    <option value="4">4 — Great</option>
+                    <option value="3">3 — Okay</option>
+                    <option value="2">2 — Not great</option>
+                    <option value="1">1 — Poor</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="reviewer-comment">Comment</label>
+                <textarea id="reviewer-comment" name="reviewer-comment" rows="3" required></textarea>
+            </div>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+</section>
+</main>
+<footer class="site-footer">
+    <p>Snip Check, a student project built with vanilla HTML, CSS &amp; JavaScript.</p>
+    <p class="attribution">
+        Scissors icon by <a href="https://www.flaticon.com/free-icon/scissors_713883" target="_blank" rel="noopener">Freepik on Flaticon</a>
+    </p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+    </html>

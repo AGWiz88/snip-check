@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Marcus Reyes",
+    "salon": "Fade Factory",
+    "city": "Corpus Christi, TX",
+    "specialty": "Fades & Beard Trims",
+    "reviews": [
+      { "reviewer": "Jordan P.", "rating": 5, "comment": "Cleanest fade I've ever gotten. Booked again immediately." },
+      { "reviewer": "Sam T.", "rating": 4, "comment": "Great work, a little pricey but worth it." }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Lauren Salinas",
+    "salon": "Bloom Salon & Spa",
+    "city": "Corpus Christi, TX",
+    "specialty": "Color & Balayage",
+    "reviews": [
+      { "reviewer": "Ava M.", "rating": 5, "comment": "My balayage came out perfect, exactly what I asked for." }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Diego Fernandez",
+    "salon": "Sharp Edge Barbershop",
+    "city": "Corpus Christi, TX",
+    "specialty": "Classic Cuts & Shaves",
+    "reviews": [
+      { "reviewer": "Chris B.", "rating": 3, "comment": "Cut was okay but I waited almost an hour past my appointment." },
+      { "reviewer": "Nate R.", "rating": 5, "comment": "Old school barber vibes, great conversation and a solid cut." }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Priya Nair",
+    "salon": "Bloom Salon & Spa",
+    "city": "Corpus Christi, TX",
+    "specialty": "Curly Hair Specialist",
+    "reviews": [
+      { "reviewer": "Maya L.", "rating": 5, "comment": "First person who actually knew how to cut curly hair properly." },
+      { "reviewer": "Deja W.", "rating": 5, "comment": "Life changing curl cut, I finally trust someone with my hair." }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tyler Brooks",
+    "salon": "Fade Factory",
+    "city": "Corpus Christi, TX",
+    "specialty": "Modern Fades & Design Lines",
+    "reviews": [
+      { "reviewer": "Isaac G.", "rating": 2, "comment": "Design lines were uneven and he seemed rushed." }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sofia Delgado",
+    "salon": "The Style Room",
+    "city": "Corpus Christi, TX",
+    "specialty": "Blowouts & Extensions",
+    "reviews": [
+      { "reviewer": "Rachel K.", "rating": 4, "comment": "Blowout lasted almost a full week, super happy." }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Andre Coleman",
+    "salon": "Sharp Edge Barbershop",
+    "city": "Corpus Christi, TX",
+    "specialty": "Tapers & Line-ups",
+    "reviews": [
+      { "reviewer": "Omar S.", "rating": 5, "comment": "Best line-up in town, been going to him for 2 years." },
+      { "reviewer": "Kevin D.", "rating": 4, "comment": "Consistent every time, never disappoints." }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Grace Kim",
+    "salon": "The Style Room",
+    "city": "Corpus Christi, TX",
+    "specialty": "Precision Cuts & Bangs",
+    "reviews": [
+      { "reviewer": "Lily H.", "rating": 5, "comment": "Finally found someone who can cut bangs without ruining them." }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ben Whitfield",
+    "salon": "Bloom Salon & Spa",
+    "city": "Corpus Christi, TX",
+    "specialty": "Men's Color & Grey Blending",
+    "reviews": [
+      { "reviewer": "Paul M.", "rating": 3, "comment": "Color turned out fine but took way longer than quoted." }
+    ]
+  }
+]
